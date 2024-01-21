@@ -11,8 +11,9 @@ body {
 }
 
 .apresentacao_titulo {
-font-size: 46px;
-font-family: 'Indie Flower', cursive;
+font-size: 36px;
+font-family: 'Krona One', sans-serif;
+
 
 
 
@@ -38,38 +39,61 @@ margin: 10% 15%;
 
 .apresentacao_conteudo {
     width: 615px;
-   
+    height: 375px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 40px;
+  
 }
 
 .apresentacao_links {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .link {
-    background-color: #22D4FD;
-    width: 280px;
+    background-color: black;
+    width: 388px;
     text-align: center;
     padding: 21px 0px;
     font-size: 24px;
     border-radius: 16px;
     text-decoration: none;
-    color: black;
-    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
     font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid #22d4fd;
+    display: flex;
+   justify-content: center;
+   gap: 16px;
+}
+
+.link:hover {
+    background-color: #272727;
+    color: yellow;
 }
 
 
 
-img {
+
+
+.imagem_perfil{
     width: 488px;
     height: 550px;
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
-    border: aqua 1px solid;
+    border: aqua 5px solid;
    
 }
 
