@@ -157,10 +157,11 @@ ul > li > a {
     }
 
     .apresentacao_conteudo {
-        width: auto;
+        width: 100%;
     }
   .link {
     padding: 10px;
   }
-  
+
+ 
 }
