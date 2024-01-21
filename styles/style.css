@@ -90,8 +90,7 @@ gap: 82px;
     width: 50%;
     text-align: center;
     padding: 21px 0px;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;    
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: 'IBM Plex Mono', monospace;
@@ -160,5 +159,8 @@ ul > li > a {
     .apresentacao_conteudo {
         width: auto;
     }
+  .link {
+    padding: 10px;
+  }
   
 }
